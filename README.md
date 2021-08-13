@@ -1,26 +1,21 @@
 # TODOList
+This is a todo list app made with [Angular CLI](https://github.com/angular/angular-cli).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+## Fetures
+1. Page Does Not reload on url change (Thanks to Angular Routing)
+2. All todos get saved on your local system this ensure the Privacy of your data.
+3. This app is completely secure and does not store any data on server. 
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+After building the app one can serve this as a static website 
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
