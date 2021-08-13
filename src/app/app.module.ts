@@ -5,10 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NavbarComponent } from './Header/navbar/navbar.component';
+import { TodosComponent } from './appComp/todos/todos.component';
+import { TodoItemComponent } from './appComp/todo-item/todo-item.component';
+import { AddTodoComponent } from './appComp/add-todo/add-todo.component';
+import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './appComp/about/about.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    TodosComponent,
+    TodoItemComponent,
+    AddTodoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -18,7 +29,8 @@ import { environment } from '../environments/environment';
       // Register the ServiceWorker as soon as the app is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
