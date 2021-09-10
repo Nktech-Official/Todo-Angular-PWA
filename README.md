@@ -5,6 +5,7 @@ This is a todo list app made with [Angular CLI](https://github.com/angular/angul
 1. Page Does Not reload on url change (Thanks to Angular Routing)
 2. All todos get saved on your local system this ensure the Privacy of your data.
 3. This app is completely secure and does not store any data on server. 
+4. The app is live on [todo-angular-app-1a618](https://todo-angular-app-1a618.web.app/).
 
 ## Development server
 
